@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>buscar</ion-title>
+  </ion-toolbar>
+
+  <ion-toolbar>
+    <ion-searchbar placeholder="Buscar" animated (ionChange)="buscar($event)"></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  
+
+  <ion-item *ngFor="let poema of buscarUser">
+   
+    <ion-label> 
+      <h2>{{poema.autor}}</h2>
+      <h3>{{poema.titulo}}</h3>
+      <p>{{poema.abstrac}}</p> 
+    </ion-label>
+    
+  </ion-item>
+
+</ion-content>

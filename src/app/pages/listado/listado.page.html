@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>listado</ion-title>
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content>
+
+  <ion-item *ngFor="let poema of po |async">
+   
+    <ion-label>
+      <h2>{{poema.autor}}</h2>
+      <h3>{{poema.titulo}}</h3>
+      <p>{{poema.abstrac}}</p> 
+    </ion-label>
+    
+  </ion-item>
+
+</ion-content>
