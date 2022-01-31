@@ -1,0 +1,7 @@
+{
+  "name": "Prueba59_WilmerDurazno",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
